@@ -7,3 +7,86 @@ html {
 *:after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: beige;
+}
+
+.introduction {
+    font-family: "Alegreya Sans", sans-serif;
+    ;
+}
+
+
+.background__marijuana {
+    background-image: url('/cannabis-2761102_640.jpg');
+    height: 400px;
+    width: 100vw;
+    background-position: center;
+    background-repeat: repeat;
+    font-family: "Alegreya Sans Bold 700";
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.introduction__intro {
+    font-family: "Alegreya Sans Bold 700";
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+nav {
+    display: inline-block;
+    height: 100px;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    position: relative;
+    left: 15cm;
+}
+
+nav li {
+
+    display: inline-block;
+    height: 10px;
+    width: 100px;
+    margin: 10px;
+    border-color: rgb(120, 137, 7);
+
+}
+
+
+.Introduction__nav__portfolio {
+    background-color: #54be90;
+    height: 70px;
+    margin: 0%;
+}
+
+span {
+    color: #54be90;
+    text-decoration: underline;
+}
+
+.Actions {
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+}
+
+.Actions h3 {
+    color: #54be90;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.Actions p {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
